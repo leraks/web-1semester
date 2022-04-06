@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Спиридонов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="Main-bloc">
+    <div class="main-nav">
+        <div class="contetn-nav">
+
+            <div class="container-nav">
+
+                <a href="../table/TABLE_0.html"><p>Таблица</p></a>
+                <a href="../article/ARTICLE.html"><p>Статья</p></a>
+                <a href="../opros/main.html"><p>Анкета</p></a>
+                <a href="../register/reg.html"><p>Регистрация</p></a>
+                <a href="../index.html"><p>Домашняя страница</p></a>
+            </div>
+
+        </div>
+    </div>
+    <div class="body-bloc-contur">
+        <div class="body-form">
+            <div class="body-conten">
+                <div class="info-reg">
+                    <p>Регистрация</p>
+                </div>
+                <p class="request">Пожалуйста, введите ваши данные.</p>
+                <div class="form-register">
+                    <form action="">
+                        <div class="name-sername">
+                            <div>
+                                <input type="text" placeholder="Имя">
+
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Фамилия">
+                            </div>
+                        </div>
+                        <div class="form-pass">
+                            <input type="password" placeholder="Пароль">
+                        </div>
+                        <div class="form-num">
+                            <input type="tel" id="phone" name="phone" pattern="[7]{1}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Номер* +7(999)-111-22-33">
+                        </div>
+                        <div class="form-email">
+                            <input type="email" placeholder="Ваша  электронная почта">
+                        </div>
+                        <div class="prof-arintation">
+                            <p>Ваш уровень владения компьютером:</p>
+                            <select name="select">
+                                <option value="value1">Навичок</option>
+                                <option value="value2" selected>Продвинутый</option>
+                                <option value="value3">Мастер</option>
+                            </select>
+                        </div>
+                        <div class="submit-bloc">
+                            <input type="Submit" name="" value="Вход" disabled>
+                            <input type="Submit" onclick="clear();" name="" value="Очистить">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

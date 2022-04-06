@@ -1,0 +1,133 @@
+body{
+   background:#c1bdba;
+   margin: 0px;
+}
+.Main-bloc{
+    max-width: 100%;
+    max-height: 100%;
+}
+.main-nav {
+    background: #f4f4f4;
+    display:block;
+    margin-bottom:35px;
+
+}
+.contetn-nav{
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+.container-nav{
+
+    /* height: 250px; */
+
+    /* top: 0; */
+
+    /* bottom: 0; */
+    max-width:1000px;
+    margin: auto;
+    padding: 10px 20px 10px 20px
+}
+.container-nav a {
+    display: inline-block;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #4d4d4d;
+
+}
+.body-bloc-contur{
+    width:550px;
+    height:450px;
+    background: #24333c;
+    margin:auto;
+    vertical-align: middle;
+}
+.body-form {
+    margin-top: 25%;
+}
+
+.info-reg{
+    text-align: center;
+    background: #1ab188;
+}
+.info-reg p{
+    font-size:36px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.request {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-top: 0px;
+}
+.form-register{
+    text-align: center;
+}
+.name-sername {
+    display: inline-flex;
+    margin-bottom: 30px;
+}
+input{
+    height:22px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.form-pass {
+    margin-bottom: 30px;
+}
+.form-pass input {
+    width: 80%;
+}
+.form-num {
+    margin-bottom: 30px;
+}
+.form-num input {
+    width: 80%;
+}
+.form-email input {
+    width: 80%;
+}
+.form-email {
+    margin-bottom: 30px;
+}
+
+.prof-arintation{
+    text-align: left;
+    margin-left: 47px;
+    display:flex;
+    margin-bottom: 30px;
+    }
+.prof-arintation p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 35px;
+    margin-right: 30px;
+    color:gray;
+}
+select {
+    width: 115px;
+    height: 25px;
+}
+.submit-bloc input{
+    width: 170px;
+    height: 35px;
+    background: #1ab188;
+    color:white;
+    font-size:20px;
+}
+
+

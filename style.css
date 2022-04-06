@@ -1,0 +1,137 @@
+body {
+    margin:0px;
+    overflow: hidden
+}
+
+
+h1 {
+    font-size: 2.25em;
+}
+.main-nav {
+    background: #f4f4f4;
+    display:block;
+    
+}
+.contetn-nav{
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+.container-nav{
+
+    /* height: 250px; */
+
+    /* top: 0; */
+
+    /* bottom: 0; */
+    max-width:1000px;
+    margin: auto;
+    padding: 10px 20px 10px 20px
+}
+.container-nav a {
+    display: inline-block;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #4d4d4d;
+
+}
+.main-content h1:before {
+    content: 'WEB develop';
+
+    position: absolute;
+    right:0px;
+    left:0px;
+    top: 185px;
+    font-size: 175px;
+    z-index: -1;
+    color: #f4f4f4;
+    max-width:35%;
+}
+.main-content h2:before {
+    content: 'ER';
+    color:red;
+    position: absolute;
+    right:0px;
+    left:0px;
+    top: 555px;
+    font-size: 175px;
+    z-index: -1;
+    color: #f4f4f4;
+    max-width:10%;
+    background: black;
+    min-width:280px;
+}
+@media (max-width:1500px){
+    .main-content h1:before {
+        display:none;
+    }
+    .main-content h2:before {
+        display:none;
+    }
+}
+
+
+.main-content h1{
+    color: #4e4e4e;
+}
+
+
+.main-content{
+    padding: 55px 0px 0px 0px;
+}
+.test{
+    width: 900px;
+}
+.block {
+    margin: auto;
+    max-width: 1000px;
+    width:100%;
+    
+}
+.container{
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    height:100%;
+}
+.container p{
+    color: #4e4e4e;
+    max-width:90%;
+}
+.more-info-content{
+    display:flex;
+}
+.img-my img {
+
+    border-radius: 50%;
+    width: 125%;
+    height: 115px;
+}
+.motiv-my{
+    margin-left: 40px;
+}
+.separator{
+    margin-top: 60px;
+}
+.task{
+    margin-left: 40px;
+}
+.task dd{
+    margin-bottom: 40px;
+    list-style: none;
+    font-size: 0.9375em;
+    color: #8c8c8c;
+
+}
+.task dd a {
+    padding-bottom: 5px;
+    font-size: 1.1875em;
+    font-weight: 700;
+    text-decoration: none;
+    color: #4e4e4e;
+    border-bottom: 1px solid #b3b3b3;
+}

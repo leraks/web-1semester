@@ -1,0 +1,130 @@
+body{
+margin:0px;
+}
+.main-nav {
+    background: #f4f4f4;
+    display:block;
+    margin-bottom:35px;
+
+}
+.contetn-nav{
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+.container-nav{
+
+    /* height: 250px; */
+
+    /* top: 0; */
+
+    /* bottom: 0; */
+    max-width:1000px;
+    margin: auto;
+    padding: 10px 20px 10px 20px
+}
+.container-nav a {
+    display: inline-block;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #4d4d4d;
+
+}
+
+.choice-block{
+    width:40%;
+    margin:auto;
+    max-width: 762px;
+}
+
+.choice{
+    display: block;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+.choce-img{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 75%;
+    left: 50%;
+    margin: -125px 0 0 -125px;
+}
+.blabla{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* top: 0; */
+    /* left: 0; */
+    
+}
+.choice p{
+    text-align: -webkit-center;
+    
+    color: #4e4e4e;
+}
+.button-edit{
+    margin-top:50px;
+}
+
+.iksweb{display: inline-block;cursor: pointer; font-size:20px;text-decoration:none;padding:18px 21px; color:#0a0a0a;background:#ffff0;border-radius:17px;border:1px solid #354251;position: relative;left: 50%;margin: -87px 0 0 -93px;}
+.iksweb:hover{background:#09578f;color:#ffffff;border:1px solid #4632c7;transition: all 0.8s ease;}
+
+
+.main-block {
+    width:100%;
+    min-height: 100vh;
+    display:grid;
+}
+.background{
+    min-height: 100vh;
+
+    background: linear-gradient(to bottom, #33ccff -25%, #ff99cc 100%);
+}
+.annotation {
+    display: inline-block;
+    margin-left: 15px;
+}
+.annotation h1{
+    color: ghostwhite;
+}
+
+.block-form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    height: 25em;
+    background: linear-gradient(to bottom, #f9d091 0%, #ff99cc 100%);
+
+    margin-top:10%;
+
+    border-radius: 35px;
+}
+.form li {
+    margin: 20px;
+    font-size:24px;
+    color: white;
+    font-style: oblique;
+    list-style-type: none;
+}
+.buttons {
+    margin-top:45px;
+}
+.button {
+  background: linear-gradient(to bottom, #33ccff 0%, #fb7ba2 100%);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 45px;
+  width: 184px;
+  height: 60px;
+}
